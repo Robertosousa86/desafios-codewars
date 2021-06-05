@@ -1,11 +1,6 @@
 function filter_list(l) {
-  var filteredList = [];
-  for (var i = 0; i < l.length; i++) {
-    if (l[i].constructor.name !== 'String') {
-      filteredList.push(l[i]);
-    }
-  }
-  return filteredList;
+  // Retorna um novo array filtrando as strings
+  return l.filter((e) => typeof e !== 'string');
+  // return l.filter((e) => typeof e === 'number');
 }
-
 module.exports = filter_list;
