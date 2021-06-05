@@ -1,3 +1,3 @@
- const assert = require('assert');
+const assert = require('assert');
 
-
+assert.strictEqual(list_filtering())
