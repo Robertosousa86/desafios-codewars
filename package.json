@@ -1,0 +1,32 @@
+{
+  "name": "desafios-codewars",
+  "version": "1.0.0",
+  "description": "Resolucao de desafios propostos no site codewars",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertosousa86/desafios-codewars.git"
+  },
+  "keywords": [
+    "codewars",
+    "resolutions",
+    "mocha",
+    "chai",
+    "tdd"
+  ],
+  "author": "Roberto Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robertosousa86/desafios-codewars/issues"
+  },
+  "homepage": "https://github.com/Robertosousa86/desafios-codewars#readme"
+}
