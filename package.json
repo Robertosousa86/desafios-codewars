@@ -1,0 +1,23 @@
+{
+  "name": "desafios-codewars",
+  "version": "1.0.0",
+  "description": "## Resolução de desafios propostos no site codewars.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertosousa86/desafios-codewars.git"
+  },
+  "author": "Roberto Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robertosousa86/desafios-codewars/issues"
+  },
+  "homepage": "https://github.com/Robertosousa86/desafios-codewars#readme"
+}
