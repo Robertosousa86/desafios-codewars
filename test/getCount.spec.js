@@ -1,5 +1,5 @@
 describe('getCount()', () => {
-  it('shoul be what?', () => {
+  it('should be what?', () => {
     expect(true).toBe(true);
   });
 });
