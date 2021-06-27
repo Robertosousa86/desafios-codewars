@@ -1,4 +1,5 @@
-const getSum = require('../sumOfNumbers/solution');
+// const getSum = require('../sumOfNumbers/solution');
+const getSum = require('../sumOfNumbers/refactoring');
 
 describe('getSum()', () => {
   it('should be return "a" our "b" when "a" and "b" are the same', () => {
