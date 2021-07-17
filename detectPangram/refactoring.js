@@ -13,6 +13,4 @@ function isPangram(string) {
 
 */
 
-console.log(isPangram('Bancos fúteis pagavam-lhe queijo, whisky e xadrez.'));
-
 module.exports = isPangram;
