@@ -8,4 +8,9 @@ describe('factorial()', () => {
   it('should be return 1 as a factorial of 0', () => {
     expect(factorial(0)).toBe(1);
   });
+
+  it('should be throw an error when the range is exceeded', () => {
+    const throwError = () => factorial(-1);
+    expect(throwError).toThrowError(RangeError);
+  });
 });
