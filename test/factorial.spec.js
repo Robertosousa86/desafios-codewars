@@ -1,4 +1,5 @@
-const factorial = require('../factorial/solution');
+// const factorial = require('../factorial/solution');
+const factorial = require('../factorial/refactoring')
 
 describe('factorial()', () => {
   it('should be return 120 as a factorial of 5', () => {
